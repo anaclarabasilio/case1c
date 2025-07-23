@@ -155,7 +155,51 @@ body {
 footer {
   background-color: #000000;
   color: rgb(71, 71, 71);
-  text-align: center;
-  padding: 30px 20px;
+  padding: 30px 40px;
   width: 100%;
+}
+
+.footer duvidas {
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+ul a{
+  color: rgb(71, 71, 71);
+}
+
+
+
+
+.lista1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.lista1 ul {
+  justify-content: space-between;
+}
+
+.lista2 {
+  padding-bottom: 20px;
+}
+
+.lista2 ul {
+  justify-content: space-between;
+}
+
+.vazio {
+  visibility: hidden;
+}
+
+
+.idioma a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
 }
