@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #111;
+  background-color: #000000;
   color: white;
 }
 
@@ -18,12 +18,20 @@ body {
   overflow: hidden;
 }
 
+.netfluxo {
+  position: absolute;
+  top: 10px;
+  width: 200px;
+  padding-left: 15px;
+}
+
 /* Imagem de fundo */
 .imagem-topo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(40%);
+  position: relative;
 }
 
 /* Conteúdo sobre a imagem */
@@ -32,10 +40,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /*deixar o espaço de login alinhado no meio*/
   width: 350px;
   background-color: rgba(0, 0, 0, 0.85);
   padding: 30px 40px;
-  border-radius: 8px;
+  
 }
 
 /* Formulário */
