@@ -6,7 +6,6 @@
 
 body {
   font-family: sans-serif;
-  background-color: #000000;
   color: white;
 }
 
@@ -42,7 +41,7 @@ body {
   transform: translate(-50%, -50%);
   /*deixar o espaço de login alinhado no meio*/
   width: 350px;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.70);
   padding: 30px 40px;
   
 }
@@ -53,59 +52,109 @@ body {
   margin-bottom: 20px;
 }
 
-.input-box,
-.entrar,
-.acesso,
-.lembrar,
-.esqueceu,
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 15px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    color: rgb(138, 137, 137);
+    padding: 20px 20px 20px;
+    background-color: rgb(65, 64, 64);
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.entrar{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin: 15px 0px;
+}
+
+.entrar input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 131, 33);
+    color: white;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+.ou{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0px;
+    text-align: center;
+    color: rgb(138, 137, 137);
+}
+
+.acesso{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin: 15px 0px;
+}
+
+.acesso input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(122, 122, 122, 0.6);
+    color: white;
+    font-size: 16px;
+    border: 0px;
+}
+
+.esqueceu {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.esqueceu a{
+    color: white;
+    text-decoration: none;
+}
+.lembrar{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0px;
+
+}
+.lembrar label input{
+    margin-right: 5px;
+}
+
 .registrar {
-  margin: 15px 0;
-  width: 100%;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0px;
 }
 
-.input-box input,
-.entrar input,
-.acesso input {
-  width: 100%;
-  height: 45px;
-  padding: 0 15px;
-  font-size: 16px;
-  border: none;
+.registrar a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
 }
 
-.input-box input {
-  background-color: rgb(65, 64, 64);
-  color: rgb(200, 200, 200);
+.registrar {
+   color:rgb(138, 137, 137) ; 
 }
 
-.entrar input {
-  background-color: orange;
-  color: white;
-  cursor: pointer;
-}
-
-.acesso input {
-  background-color: rgb(138, 137, 137);
-  color: white;
-  cursor: pointer;
-}
-
-.ou {
-  text-align: center;
-  color: gray;
-  font-size: 18px;
-}
-
-.esqueceu a,
-.registrar a {
-  color: white;
-  text-decoration: none;
-}
 
 /* Rodapé */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #000000;
+  color: rgb(71, 71, 71);
   text-align: center;
   padding: 30px 20px;
   width: 100%;
