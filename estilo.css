@@ -48,8 +48,10 @@ body {
 
 /* Formulário */
 .container h1 {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 20px;
+  font-family: "Poppins";
+  font-weight: normal;
 }
 
 .input-box {
@@ -64,9 +66,10 @@ body {
     height: 100%;
     color: rgb(138, 137, 137);
     padding: 20px 20px 20px;
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(51, 51, 51);
     border: 1px solid;
     font-size: 16px;
+    font-family: "Merriweather", serif;
 }
 
 .entrar{
@@ -82,16 +85,20 @@ body {
     background-color: rgb(235, 131, 33);
     color: white;
     font-size: 16px;
-    border: 1px solid;
+    border: 0px;
+    font-family: "Merriweather", serif;
 }
 
 .ou{
     position: relative;
     width: 100%;
     height: 30px;
-    margin: 15px 0px;
+    margin: 16px 0px;
     text-align: center;
     color: rgb(138, 137, 137);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Merriweather", serif;
 }
 
 .acesso{
@@ -105,9 +112,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgb(122, 122, 122, 0.6);
-    color: white;
+    color: rgb(255, 255, 255, 0.75);
     font-size: 16px;
     border: 0px;
+    font-family: "Merriweather", serif;
 }
 
 .esqueceu {
@@ -119,18 +127,22 @@ body {
 }
 
 .esqueceu a{
-    color: white;
+    color: rgb(255, 255, 255, 0.75);
     text-decoration: none;
+    font-family: "Merriweather", serif;
 }
 .lembrar{
     position: relative;
     width: 100%;
     height: 25px;
     margin: 10px 0px;
+    font-family: "Merriweather", serif;
+    color: rgb(255, 255, 255, 0.75);
 
 }
 .lembrar label input{
     margin-right: 5px;
+
 }
 
 .registrar {
@@ -142,12 +154,14 @@ body {
 
 .registrar a{
     margin-left: 5px;
-    color: white;
+    color: rgb(255, 255, 255, 0.75);
     text-decoration: none;
+    font-family: "Merriweather", serif;
 }
 
 .registrar {
    color:rgb(138, 137, 137) ; 
+   font-family: "Merriweather", serif;
 }
 
 
@@ -159,8 +173,9 @@ footer {
   width: 100%;
 }
 
-.footer duvidas {
+.duvidas {
   font-size: 20px;
+  font-family: "Merriweather", serif;
 }
 
 ul {
@@ -171,6 +186,7 @@ ul {
 
 ul a{
   color: rgb(71, 71, 71);
+  font-family: "Merriweather", serif;
 }
 
 
@@ -201,5 +217,5 @@ ul a{
 .idioma a{
   text-decoration: none;
   font-size: 16px;
-  color: white;
+  color: rgb(255, 255, 255, 0.75);
 }
